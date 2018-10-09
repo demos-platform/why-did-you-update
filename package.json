@@ -1,0 +1,31 @@
+{
+  "name": "create-test-app",
+  "version": "1.0.0",
+  "description": "简易测试 react 脚手架",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demos-platform/create-test-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demos-platform/create-test-app/issues"
+  },
+  "homepage": "https://github.com/demos-platform/create-test-app#readme",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.0.2",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "webpack": "^4.19.0",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.8",
+    "why-did-you-update": "^0.1.1"
+  }
+}
